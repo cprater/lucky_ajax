@@ -6,8 +6,6 @@ $(document).ready(function () {
     var url = $(this).attr("action")
     var value = Math.floor((Math.random() * 5) + 1);
 
-    console.log(url);
-    console.log(value);
     $.ajax({
       method: "post",
       url: url,
